@@ -1,0 +1,27 @@
+.container-fluid {
+    /* background: url("../images/background-4.jpg") no-repeat center center fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-width: 1920px;
+    min-height: 1080px;
+}
+
+.main-content {
+    color: #00FF7F;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.main-content .heading {
+    font-size: 70px;
+}
+.main-content .sub-heading {
+    font-size: 40px;
+}
